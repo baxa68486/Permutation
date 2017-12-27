@@ -1,0 +1,6 @@
+c:\users\baha\documents\visual studio 2013\Projects\FigureResolver\FigureResolver\bin\Debug\FigureResolver.exe.config
+c:\users\baha\documents\visual studio 2013\Projects\FigureResolver\FigureResolver\obj\Debug\FigureResolver.csprojResolveAssemblyReference.cache
+c:\users\baha\documents\visual studio 2013\Projects\FigureResolver\FigureResolver\bin\Debug\FigureResolver.exe
+c:\users\baha\documents\visual studio 2013\Projects\FigureResolver\FigureResolver\bin\Debug\FigureResolver.pdb
+c:\users\baha\documents\visual studio 2013\Projects\FigureResolver\FigureResolver\obj\Debug\FigureResolver.exe
+c:\users\baha\documents\visual studio 2013\Projects\FigureResolver\FigureResolver\obj\Debug\FigureResolver.pdb
