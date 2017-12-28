@@ -13,6 +13,7 @@ namespace FigureResolver
             AlgorithmResolver algorithmResolver = new AlgorithmResolver();
             algorithmResolver.FindAllSolutions();
             Console.WriteLine(algorithmResolver.GetAllSolutions().Count());
+            var res = algorithmResolver.GetAllSolutions()[0];
 
             Console.ReadLine();
         }

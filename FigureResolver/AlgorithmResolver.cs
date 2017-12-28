@@ -25,12 +25,12 @@ namespace FigureResolver
 
             FixFigurePositions();
             Dictionary<int, int> currentValuesForPositionsInFigure = new Dictionary<int, int>();
-            currentValuesForPositionsInFigure.Add(19, 1);
-            currentValuesForPositionsInFigure.Add(20, 2);
-            currentValuesForPositionsInFigure.Add(21, 3);
-            currentValuesForPositionsInFigure.Add(22, 4);
-            currentValuesForPositionsInFigure.Add(23, 5);
-            currentValuesForPositionsInFigure.Add(24, 6);
+            currentValuesForPositionsInFigure.Add(19, 6);
+            currentValuesForPositionsInFigure.Add(20, 5);
+            currentValuesForPositionsInFigure.Add(21, 4);
+            currentValuesForPositionsInFigure.Add(22, 3);
+            currentValuesForPositionsInFigure.Add(23, 2);
+            currentValuesForPositionsInFigure.Add(24, 1);
 
             List<int> valuesForPermutationsGenerations = new List<int>();
             for (int j = 1; j < initialCount + 1; j++)
@@ -157,15 +157,15 @@ namespace FigureResolver
             Dictionary<int, List<int>> positionsInFigureWithFixedPositions = new Dictionary<int, List<int>>();
             List<int> list = new List<int>() { 17, 18, 24, 23, 22, 6, 7 };
             positionsInFigureWithFixedPositions.Add(1, list);
-            list = new List<int>() { 16, 15, 20, 19, 21, 9, 8 };
+            list = new List<int>() { 16, 15, 19, 20, 21, 9, 8 };
             positionsInFigureWithFixedPositions.Add(2, list);
-            list = new List<int>() { 11, 12, 19, 20, 24, 18, 1 };
+            list = new List<int>() { 11, 12, 20, 19, 24, 18, 1 };
             positionsInFigureWithFixedPositions.Add(3, list);
             list = new List<int>() { 10, 9, 21, 22, 23, 3, 2 };
             positionsInFigureWithFixedPositions.Add(4, list);
-            list = new List<int>() { 14, 15, 20, 24, 23, 3, 4 };
+            list = new List<int>() { 14, 15, 19, 24, 23, 3, 4 };
             positionsInFigureWithFixedPositions.Add(5, list);
-            list = new List<int>() { 13, 12, 19, 21, 22, 6, 5 };
+            list = new List<int>() { 13, 12, 20, 21, 22, 6, 5 };
             positionsInFigureWithFixedPositions.Add(6, list);
             int sum = 0;
             for (int i = 1; i < rawsCount + 1; i++)
